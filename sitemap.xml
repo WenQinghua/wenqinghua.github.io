@@ -2,7 +2,56 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://yoursite.com/2020/07/19/hello-world/</loc>
+    <loc>http://wenqinghua.github.io/2020/03/21/Magic-Numbers/</loc>
+    
+    <lastmod>2020-07-19T06:32:48.048Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://wenqinghua.github.io/2020/06/08/pyinstaller/</loc>
+    
+    <lastmod>2020-07-19T05:34:11.262Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://wenqinghua.github.io/2020/03/23/chocolatey/</loc>
+    
+    <lastmod>2020-07-19T05:34:00.802Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://wenqinghua.github.io/2020/03/23/Github%E4%BD%BF%E7%94%A8%E6%8A%80%E5%B7%A7/</loc>
+    
+    <lastmod>2020-07-19T05:30:39.325Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://wenqinghua.github.io/link/index.html</loc>
+    
+    <lastmod>2020-07-19T04:38:12.365Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://wenqinghua.github.io/categories/index.html</loc>
+    
+    <lastmod>2020-07-19T04:37:42.687Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://wenqinghua.github.io/tags/index.html</loc>
+    
+    <lastmod>2020-07-19T04:37:12.962Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://wenqinghua.github.io/2020/07/19/hello-world/</loc>
     
     <lastmod>2020-07-19T03:51:44.554Z</lastmod>
     
