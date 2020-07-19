@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://wenqinghua.github.io/"/>
-  <updated>2020-07-19T05:34:11.262Z</updated>
+  <updated>2020-07-19T07:36:22.470Z</updated>
   <id>http://wenqinghua.github.io/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>修改hosts以连接GitHub</title>
+    <link href="http://wenqinghua.github.io/2020/07/19/%E4%BF%AE%E6%94%B9hosts%E4%BB%A5%E8%BF%9E%E6%8E%A5GitHub/"/>
+    <id>http://wenqinghua.github.io/2020/07/19/%E4%BF%AE%E6%94%B9hosts%E4%BB%A5%E8%BF%9E%E6%8E%A5GitHub/</id>
+    <published>2020-07-19T07:24:14.000Z</published>
+    <updated>2020-07-19T07:36:22.470Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="修改hosts以连接github"><a class="markdownIt-Anchor" href="#修改hosts以连接github"></a> 修改hosts以连接Github</h1><p>当使用git克隆仓库时可能出现443: Time out的错误，用浏览器访问GitHub也不行时，可能的解决办法是修改hosts文件。</p><h2 id="查询ip地址"><a class="markdownIt-Anchor" href="#查询ip地址"></a> 查询IP地址</h2><p>首先在https://www.ipaddress.com/上查询github.com和github.global.ssl.fastly.net的IP地址（可能会发生变化）。</p><p>现在我查到github.com的IP地址为140.82.114.3，github.global.ssl.fastly.net的IP地址为199.232.69.194。</p><h2 id="修改hosts"><a class="markdownIt-Anchor" href="#修改hosts"></a> 修改hosts</h2><p>在C:\Windows\System32\drivers\etc目录下的hosts文件中增加以下两行：</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">140.82.114.3 github.com</span><br><span class="line">199.232.69.194 github.global.ssl.fastly.net</span><br></pre></td></tr></table></figure><h2 id="清楚dns缓存"><a class="markdownIt-Anchor" href="#清楚dns缓存"></a> 清楚DNS缓存</h2><p>修改完hosts需要清楚DNS缓存：</p><p><img src= "/img/loading.gif" data-src="https://i.loli.net/2020/07/19/qauIFXiAcGOCwyl.png" alt="" /></p><p>执行以上步骤后，你可能就已经能连接上GitHub了。</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;修改hosts以连接github&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#修改hosts以连接github&quot;&gt;&lt;/a&gt; 修改hosts以连接Github&lt;/h1&gt;
+&lt;p&gt;当使用git克隆仓库时可能出现443: Time out的错
+      
+    
+    </summary>
+    
+    
+      <category term="小技巧" scheme="http://wenqinghua.github.io/categories/%E5%B0%8F%E6%8A%80%E5%B7%A7/"/>
+    
+    
+      <category term="GitHub" scheme="http://wenqinghua.github.io/tags/GitHub/"/>
+    
+  </entry>
   
   <entry>
     <title>pyinstaller</title>
