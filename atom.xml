@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://wenqinghua.github.io/"/>
-  <updated>2020-07-20T07:48:53.766Z</updated>
+  <updated>2020-07-23T13:41:40.660Z</updated>
   <id>http://wenqinghua.github.io/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Win10关闭占用某一端口的进程</title>
+    <link href="http://wenqinghua.github.io/2020/07/23/Win10%E5%85%B3%E9%97%AD%E5%8D%A0%E7%94%A8%E6%9F%90%E4%B8%80%E7%AB%AF%E5%8F%A3%E7%9A%84%E8%BF%9B%E7%A8%8B/"/>
+    <id>http://wenqinghua.github.io/2020/07/23/Win10%E5%85%B3%E9%97%AD%E5%8D%A0%E7%94%A8%E6%9F%90%E4%B8%80%E7%AB%AF%E5%8F%A3%E7%9A%84%E8%BF%9B%E7%A8%8B/</id>
+    <published>2020-07-23T13:38:12.000Z</published>
+    <updated>2020-07-23T13:41:40.660Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="win10关闭占用某一端口的进程"><a class="markdownIt-Anchor" href="#win10关闭占用某一端口的进程"></a> Win10关闭占用某一端口的进程</h1><h2 id="查看端口占用情况"><a class="markdownIt-Anchor" href="#查看端口占用情况"></a> 查看端口占用情况</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">netstat -ano | findstr 端口号</span><br></pre></td></tr></table></figure><h2 id="关闭该进程"><a class="markdownIt-Anchor" href="#关闭该进程"></a> 关闭该进程</h2><h3 id="使用任务管理器关闭"><a class="markdownIt-Anchor" href="#使用任务管理器关闭"></a> 使用任务管理器关闭</h3><p>根据PID找到该进程，结束任务</p><h2 id="使用命令关闭"><a class="markdownIt-Anchor" href="#使用命令关闭"></a> 使用命令关闭</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">taskkill -PID 进程号 -F</span><br></pre></td></tr></table></figure>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;win10关闭占用某一端口的进程&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#win10关闭占用某一端口的进程&quot;&gt;&lt;/a&gt; Win10关闭占用某一端口的进程&lt;/h1&gt;
+&lt;h2 id=&quot;查看端口占用情况&quot;&gt;&lt;a class=&quot;markd
+      
+    
+    </summary>
+    
+    
+      <category term="小技巧" scheme="http://wenqinghua.github.io/categories/%E5%B0%8F%E6%8A%80%E5%B7%A7/"/>
+    
+    
+      <category term="win10" scheme="http://wenqinghua.github.io/tags/win10/"/>
+    
+  </entry>
   
   <entry>
     <title>SQL</title>
