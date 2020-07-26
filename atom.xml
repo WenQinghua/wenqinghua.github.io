@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://wenqinghua.github.io/"/>
-  <updated>2020-07-24T14:03:07.448Z</updated>
+  <updated>2020-07-26T08:03:27.288Z</updated>
   <id>http://wenqinghua.github.io/</id>
   
   <author>
@@ -15,6 +15,36 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Java权限修饰符</title>
+    <link href="http://wenqinghua.github.io/2020/07/26/Java%E6%9D%83%E9%99%90%E4%BF%AE%E9%A5%B0%E7%AC%A6/"/>
+    <id>http://wenqinghua.github.io/2020/07/26/Java%E6%9D%83%E9%99%90%E4%BF%AE%E9%A5%B0%E7%AC%A6/</id>
+    <published>2020-07-26T07:55:00.000Z</published>
+    <updated>2020-07-26T08:03:27.288Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="java权限修饰符"><a class="markdownIt-Anchor" href="#java权限修饰符"></a> Java权限修饰符</h1><p>Java中有四种权限修饰符：</p><table><thead><tr><th></th><th>public</th><th>protected</th><th>(default)</th><th>private</th></tr></thead><tbody><tr><td>同一个类</td><td>yes</td><td>yes</td><td>yes</td><td>yes</td></tr><tr><td>同一个包</td><td>yes</td><td>yes</td><td>yes</td><td>no</td></tr><tr><td>不同包子类</td><td>yes</td><td>yes</td><td>no</td><td>no</td></tr><tr><td>不同包非子类</td><td>yes</td><td>no</td><td>no</td><td>no</td></tr></tbody></table>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;java权限修饰符&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#java权限修饰符&quot;&gt;&lt;/a&gt; Java权限修饰符&lt;/h1&gt;
+&lt;p&gt;Java中有四种权限修饰符：&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;
+      
+    
+    </summary>
+    
+    
+      <category term="Java" scheme="http://wenqinghua.github.io/categories/Java/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>Java String</title>
