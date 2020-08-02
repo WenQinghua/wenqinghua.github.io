@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://wenqinghua.github.io/"/>
-  <updated>2020-07-26T09:13:06.944Z</updated>
+  <updated>2020-07-27T09:28:55.855Z</updated>
   <id>http://wenqinghua.github.io/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Servlet</title>
+    <link href="http://wenqinghua.github.io/2020/07/27/Servlet/"/>
+    <id>http://wenqinghua.github.io/2020/07/27/Servlet/</id>
+    <published>2020-07-27T08:56:05.000Z</published>
+    <updated>2020-07-27T09:28:55.855Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="servlet"><a class="markdownIt-Anchor" href="#servlet"></a> Servlet</h1><h2 id="servlet执行原理"><a class="markdownIt-Anchor" href="#servlet执行原理"></a> Servlet执行原理</h2><blockquote><ol><li><p>当服务器接收到客户端浏览器的请求后，会解析请求URL路径，获取访问的Servlet的资源路径。</p></li><li><p>查找web.xml文件，是否有对应的<url-pattern>标签体内容。</p></li><li><p>如果有，则再找到对应的<servlet-class>全类名。</p></li><li><p>tomcat会将字节码文件加载进内存，并且创建其对象。</p></li><li><p>使用其方法。</p></li></ol></blockquote><h2 id="servlet中的生命周期方法"><a class="markdownIt-Anchor" href="#servlet中的生命周期方法"></a> Servlet中的生命周期方法</h2><ul><li>被创建：执行init方法，只执行一次<ul><li>默认情况下，第一次被访问时，Servlet被创建</li><li>在<servlet>标签下配置<ul><li>在第一次被访问时，创建：<load-on-startup>的值为负数</li><li>在服务器启动时，创建：<load-on-startup>的值非负数</li></ul></li><li>多个用户同时访问时，可能存在线程安全问题<ul><li>解决办法：尽量不要在servlet中定义成员变量，即使定义了，也不要对其修改值</li></ul></li></ul></li><li>提供服务：执行service方法，执行多次</li><li>被销毁：执行destroy方法，只执行一次<ul><li>服务器正常关闭时，servlet被销毁之前执行，用来释放资源</li></ul></li></ul>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;servlet&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#servlet&quot;&gt;&lt;/a&gt; Servlet&lt;/h1&gt;
+&lt;h2 id=&quot;servlet执行原理&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#ser
+      
+    
+    </summary>
+    
+    
+      <category term="Java" scheme="http://wenqinghua.github.io/categories/Java/"/>
+    
+    
+      <category term="Servlet" scheme="http://wenqinghua.github.io/tags/Servlet/"/>
+    
+  </entry>
   
   <entry>
     <title>Java内部类</title>
