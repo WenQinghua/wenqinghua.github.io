@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://wenqinghua.github.io/"/>
-  <updated>2020-07-27T09:28:55.000Z</updated>
+  <updated>2022-04-24T12:20:06.282Z</updated>
   <id>http://wenqinghua.github.io/</id>
   
   <author>
@@ -15,6 +15,30 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>char *, char[], and string in C++</title>
+    <link href="http://wenqinghua.github.io/2022/04/24/char-char-and-string-in-C/"/>
+    <id>http://wenqinghua.github.io/2022/04/24/char-char-and-string-in-C/</id>
+    <published>2022-04-24T12:12:12.000Z</published>
+    <updated>2022-04-24T12:20:06.282Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="char-char-and-string-in-c"><a class="markdownIt-Anchor" href="#char-char-and-string-in-c"></a> char *, char[], and string in C++</h1><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// char * and char[] to string</span></span><br><span class="line"><span class="keyword">char</span> * p = <span class="string">"Hello, world!\n"</span>;</span><br><span class="line"><span class="keyword">char</span> c[] = <span class="string">"Hello, world!\n"</span>;</span><br><span class="line">std::string str1(p), str2(c);</span><br><span class="line"><span class="built_in">cout</span> &lt;&lt; str1 &lt;&lt; str2 &lt;&lt; <span class="built_in">endl</span>;</span><br><span class="line"></span><br><span class="line"><span class="comment">// string to char * and char[]</span></span><br><span class="line"><span class="keyword">char</span> cc[<span class="number">10</span>];</span><br><span class="line"><span class="keyword">char</span> *pp;</span><br><span class="line"><span class="built_in">strcpy</span>(cc, str1.c_str());</span><br><span class="line"><span class="built_in">strcpy</span>(pp, str1.c_str());</span><br><span class="line"><span class="built_in">cout</span> &lt;&lt; cc &lt;&lt; pp &lt;&lt; <span class="built_in">endl</span>;</span><br><span class="line"></span><br><span class="line"><span class="comment">// char[] to char *</span></span><br><span class="line"><span class="keyword">char</span> ccc[] = <span class="string">"Hello, world!\n"</span>;</span><br><span class="line"><span class="keyword">char</span> *ppp = ccc;</span><br><span class="line"><span class="built_in">cout</span> &lt;&lt; ppp &lt;&lt; <span class="built_in">endl</span>;</span><br><span class="line"></span><br><span class="line"><span class="comment">// char * to char[]</span></span><br><span class="line"><span class="keyword">char</span> *pppp = <span class="string">"Hello, world!\n"</span>;</span><br><span class="line"><span class="keyword">char</span> cccc[<span class="number">10</span>];</span><br><span class="line"><span class="built_in">strcpy</span>(cccc, pppp);</span><br><span class="line"><span class="built_in">cout</span> &lt;&lt; cccc &lt;&lt; <span class="built_in">endl</span>;</span><br></pre></td></tr></table></figure><ul><li>To use <em>string</em>, you should include <string>.</li><li>To user <em>strcpy</em>, you should include <cstring> or &lt;string.h&gt;.</li></ul>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;char-char-and-string-in-c&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#char-char-and-string-in-c&quot;&gt;&lt;/a&gt; char *, char[], and string in C++&lt;/h1
+      
+    
+    </summary>
+    
+    
+      <category term="C++" scheme="http://wenqinghua.github.io/categories/C/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>Servlet</title>
